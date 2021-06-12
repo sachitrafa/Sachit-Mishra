@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
@@ -23,46 +24,75 @@
     body{ 
       -ms-overflow-style: none;  
       scrollbar-width: none;
+      padding-top: 70px;
     }
     body::-webkit-scrollbar{
       display: none;
     }
 		.vantajs{
 			width: 100%;
-			height: 300vh;
+			height: 420vh;
 
 		}
 	</style>
   </head>
   <body style="background: black;">
     <div class="vantajs">
-    <div class="container d-flex div1">
-		<div class="col-lg-6 col-md-6 col-sm-6" style="padding-left: 3%;">
-			<h1 id="typewriter" style="font-family: Raleway;color: rgb(104, 31, 241);"></h1>
-		</div>
-		<div class="col-lg-6 col-md-6 col-sm-6 text-end" style="padding-left: 2%;">
-			<img src="linkedin.png" width="40px" height="auto" class="img1">
-			<img src="github.png" width="60px" height="auto" class="img1">
-		</div>
-	</div>
-	<div class="container div1 text-center">
-			<h2 data-aos="fade-right">Summary:-</h2>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="font-family: Raleway;background-color: rgb(41, 2, 66);" >
+      <h1 id="typewriter" style="color: rgb(142, 63, 216);"></h1>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="background-color: rgba(106, 38, 151, 0.534)">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto ">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About Me <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#edu">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#exp">Work Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#proj">Projects & Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skill">Technical Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#acc">Accomplishments</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#hobb">Hobbies</a>
+          </li>
+          <li class="nav-item">
+            <a href="https://www.linkedin.com/in/sachit-mishra-19b393165"><img src="linkedin.png" width="40px" height="auto" class="img1"></a>
+          </li>
+          <li class="nav-item">
+            <a href="https://github.com/sachitrafa"><img src="github.png" width="40px" height="auto" class="img1"></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+	<div class="container div1 text-center" id="about">
+			<h2 data-aos="fade-right">About Me:-</h2>
 			<p data-aos="fade-right" data-aos-duration="1000" style="font-style: italic;">I'm a hardworking and determinant individual with a goal-driven mindset. Have a knack for solving challenging problems with a keen interest in Full Stack Development, Deep Learning and Data Analytics. </p>
 	</div>
-  <div class="container div1 text-center">
-      <h2 data-aos="fade-right" data-aos-duration="1000">Education</h2>
-      <div style="padding: 3%;background-color: rgba(65, 91, 161, 0.281);" data-aos="fade-right" data-aos-duration="1000">
+  <div class="container div1 text-center" id="edu">
+      <h2 data-aos="fade-down" data-aos-duration="1000">Education</h2>
+      <div style="padding: 3%;background-color: rgba(189, 82, 117, 0.233);" data-aos="fade-right" data-aos-duration="1000">
       <h3>SRM Institute of Science and Technology<span style="padding-left: 3%;font-size: large;">2017 - 2021</span></h3>
       <h4>Bachelor of Technology - <span style="font-style: italic;color: rgb(139, 136, 136);">Computer Science and Engineering</span></h4>
       </div>
-      <div style="padding: 3%;background-color: rgba(65, 91, 161, 0.281);margin-top: 2%;" data-aos="fade-right" data-aos-duration="1000">
+      <div style="padding: 3%;background-color: rgb(189, 82, 117, 0.233);margin-top: 2%;" data-aos="fade-left" data-aos-duration="1000">
         <h3>Delhi Public School<span style="padding-left: 3%;font-size: large;">2017</span></h3>
         <h4>XII (C.B.S.E) - <span style="font-style: italic;color: rgb(139, 136, 136);">Physics, Chemistry and Maths</span></h4>
         </div>
   </div>
 
-  <div class="container div1 text-center">
-     <h2 data-aos="fade-right" data-aos-duration="1000">Work Experience</h2>
+  <div class="container div1 text-center" id="exp">
+     <h2 data-aos="fade-down" data-aos-duration="1000">Work Experience</h2>
      <div style="padding: 3%;background: rgba(114, 72, 114, 0.226);" class="text-start" data-aos="fade-right" data-aos-duration="1000">
       <h3>REACHA, Remote</h3>
       <h4>Full Stack Web Developer<span style="padding-left: 3%;font-size: large;">June 2020 - July 2020</span></h4>
@@ -71,10 +101,10 @@
         <li>Part of a two member website development team responsible to increase organization global reach.</li>
          <li>Used technologies like flask framework in python, HTML + CSS, Javascript and Bootstrap to develop the website and deployed it using
           Amazon Web Services AWS.</li>
-        <li>Live website link - <a href="https://reacha.org/">Reacha</a></li>
+        <li>Live website link - <a href="https://reacha.org/"><button class="btn1">REACHA</button></a></li>
       </ul>
     </div>
-    <div style="padding: 3%;background: rgba(114, 72, 114, 0.226);margin-top: 1%;" class="text-start" data-aos="fade-right" data-aos-duration="1000">
+    <div style="padding: 3%;background: rgba(114, 72, 114, 0.226);margin-top: 1%;" class="text-start" data-aos="fade-left" data-aos-duration="1000">
       <h3>Bharat Electronics, Ghaziabad</h3>
       <h4>Research-Intern<span style="padding-left: 3%;font-size: large;">June 2019 - July 2019</span></h4>
       <p><span style="font-weight: bold;">Project1</span> - Building a deep learning model to recognize human activity using mobile phone sensor data.</p>
@@ -98,11 +128,128 @@
       </ul>
     </div>
   </div>
+  <div class="container div1 text-center" id="proj">
+    <h2 data-aos="flip-down" data-aos-duration="1000">Projects & Courses</h2>
+    <div class="col-lg-12 col-md-12 col-sm-12 d-flex" style="background: rgba(238, 145, 145, 0.233);padding: 1%;" data-aos="zoom-in" data-aos-duration="1000">
+      <div class="col-lg-6 col-md-6 col-sm-6 text-start">
+        <h3>FinROBERTa</h3>
+        <ul>
+          <li>An NLP model built to classify sentiments of financial news headlines using pre-training and fine-tuning.</li>
+          <li>We built a model from scratch with our task-specific text corpus and later fine-tuned it on the downstream task dataset.</li>
+        </ul>
+        <div class="d-flex">
+        <a href="https://huggingface.co/sm6342/FinRoberta"><button class="btn1">FinROBERTa Model</button></a>
+        <a href="https://www.kaggle.com/sachitrafa/finroberta4" style="padding-left: 1%;"><button class="btn1">Kaggle Notebook</button></a>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-6 text-start">
+        <h3>Skin Disease Classification</h3>
+        <ul>
+          <li>Constructed an image classifier with an accuracy of 85% for distinguishing various skin diseases.</li>
+          <li>Performed transfer learning on MobileNet model trained on ImageNet dataset to get enhanced results using Keras framework and deployed
+            on Heroku.</li>
+            <a href="https://skindiseaseclassifier.herokuapp.com/"><button class="btn1">Skin Disease Classification Web App</button></a>
+        </ul>
+      </div>
+    </div>
+    <h4 style="background: rgba(238, 145, 145, 0.233);padding: 1%;" data-aos="zoom-in" data-aos-duration="1000">Courses:- <span style="font-size: large;font-style: italic;"><span style="font-weight: bold;color: rgb(128, 92, 27);">Machine Learning</span> (Stanford University, Coursera), <span style="font-weight: bold;color: rgb(128, 92, 27);">Python and Statistics for Financial Analysis</span> (The Hong Kong University of
+      Science and Technology, Coursera); <span style="font-weight: bold;color: rgb(128, 92, 27);">IBM Data Science Foundations - Level 1, IBM Data Science Foundations - Level 2 (V2), IBM Principles of Reactive
+      Architecture.</span></span></h4>
   </div>
+  <div id="skill" class="container text-center" style="color: white;
+  font-family: Raleway;">
+    <h2 data-aos="fade-down-right" data-aos-duration="1000">Technical Skills</h2>
+    <div class="col-lg-12 col-md-12 col-sm-12 d-flex" style="padding: 1%;">
+      <div class="col-lg-6 col-md-6 col-sm-6 text-center">
+        <h3 data-aos="fade-up-right" data-aos-duration="1000">Programming Languages</h3>
+        <div class="d-flex">
+          <div data-aos="fade-right" data-aos-duration="1000">
+          <button class="btn2">C++</button>
+        </div>
+        <div style="padding-left: 2%;" data-aos="fade-right" data-aos-duration="1000">
+          <button class="btn2">C</button>
+        </div>
+        <div style="padding-left: 2%;" data-aos="fade-right" data-aos-duration="1000">
+          <button class="btn2">Java</button>
+        </div>
+        <div style="padding-left: 2%;" data-aos="fade-right" data-aos-duration="1000">
+          <button class="btn2">Python</button>
+        </div>
+        </div>
+        <div class="d-flex" style="padding-top: 1%;padding-bottom: 1%;">
+          <div data-aos="fade-left" data-aos-duration="1000">
+            <button class="btn2">JavaScript</button>
+          </div>
+          <div style="padding-left: 2%;" data-aos="fade-left" data-aos-duration="1000">
+            <button class="btn2">HTML</button>
+          </div>
+          <div style="padding-left: 2%;" data-aos="fade-left" data-aos-duration="1000">
+            <button class="btn2">CSS</button>
+          </div>
+          <div style="padding-left: 2%;" data-aos="fade-left" data-aos-duration="1000">
+            <button class="btn2">SQL</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-6 text-center">
+        <h3 data-aos="fade-down-left" data-aos-duration="1000">Frameworks</h3>
+        <div class="d-flex">
+          <div data-aos="fade-right" data-aos-duration="1000">
+          <button class="btn3">Flask</button>
+        </div>
+        <div style="padding-left: 2%;" data-aos="fade-right" data-aos-duration="1000">
+          <button class="btn3">Keras</button>
+        </div>
+        <div style="padding-left: 2%;" data-aos="fade-right" data-aos-duration="1000">
+          <button class="btn3">Matplotlib</button>
+        </div>
+        <div style="padding-left: 2%;" data-aos="fade-right" data-aos-duration="1000">
+          <button class="btn3">Pandas</button>
+        </div>
+        </div>
+        <div class="d-flex" style="padding-top: 1%;padding-bottom: 1%;">
+          <div data-aos="fade-left" data-aos-duration="1000">
+            <button class="btn3">Angular</button>
+          </div>
+          <div style="padding-left: 2%;" data-aos="fade-left" data-aos-duration="1000">
+            <button class="btn3">Pytorch</button>
+          </div>
+          <div style="padding-left: 2%;" data-aos="fade-left" data-aos-duration="1000">
+            <button class="btn3">Numpy</button>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div id="acc"class="container div1 text-center">
+      <h2 data-aos="fade-up" data-aos-duration="1000">Accomplishments</h2>
+      <ul class="text-start" style="padding: 1%;" data-aos="fade-down" data-aos-duration="1000">
+        <li><span style="font-weight: bolder;color: rgb(196, 175, 56);">Publication</span> - Chapter co authored by me ' Using Deep Learning for Image-Based on Plant Disease Detection ' has been published in
+De Gruyter Frontiers in Computational Intelligence, 8 - Internet of Things and Machine Learning in Agriculture.</li> 
+<li><span style="font-weight: bolder;color: rgb(196, 175, 56);">Paper Publication</span>  - Got an acceptance from VIT Bhopal ICDACT-Dec 2021 for my research paper abstract titled "FinRoBERTa: Financial
+Sentiment Classification by Pre-training".</li> 
+<li><span style="font-weight: bolder;color: rgb(196, 175, 56);">Reached the final round of Valeo Hackathon</span>  - Cleared the first two rounds and reached the final round of the hackathon, organized by Valeo.</li> 
+<li><span style="font-weight: bolder;color: rgb(196, 175, 56);">SRM International Conference on Internet Of Things</span>  - Presented my research paper "Machine Learning and Big Data in Smart Farming a
+Review", at the Second SRM InternationalConference on Internet Of Things.</li> 
+<li><span style="font-weight: bolder;color: rgb(196, 175, 56);">Cyware</span>  - A key speaker at a cyber security workshop held at SRM I.S.T.</li> 
+      </ul>
+    </div>
+    <div id="hobb" class="container div1 text-center" data-aos="fade-left" data-aos-duration="1000">
+      <h3>Hobbies</h3>
+      <p style="font-style: italic;color: rgb(119, 117, 228);">Tennis, Basketball, Writing, Football</p>
+      <p>A puzzle created by me using angular - <a href="https://sachitrafa.github.io/Cipher/"><button class="btn1"> Cipher </button></a></p>
+      <p>A collection of poems written by me - <a href="https://sachitrafa.github.io/Da-Poet-Corner/"><button class="btn1">Da Poets Corner</button></a></p>
+
+  </div>
+  </div>
+  
 
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
