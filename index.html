@@ -4,13 +4,15 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril Fatface">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 
     <!-- Bootstrap CSS -->
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r123/three.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/p5.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 	<link href="style1.css" rel="stylesheet">
     <title>Sachit Mishra</title>
 	<style type="text/css">
@@ -18,29 +20,85 @@
 			margin: 0;
 			padding: 0;
 		}
-		body { overflow: hidden;}
-		#vantajs{
+    body{ 
+      -ms-overflow-style: none;  
+      scrollbar-width: none;
+    }
+    body::-webkit-scrollbar{
+      display: none;
+    }
+		.vantajs{
 			width: 100%;
-			height: 100vh;
+			height: 300vh;
+
 		}
 	</style>
   </head>
-  <body id="vantajs">
+  <body style="background: black;">
+    <div class="vantajs">
     <div class="container d-flex div1">
-		<div class="col-lg-6 col-md-6 col-sm-6">
-			<h1 style="font-family: Abril Fatface;">Sachit Mishra</h1>
+		<div class="col-lg-6 col-md-6 col-sm-6" style="padding-left: 3%;">
+			<h1 id="typewriter" style="font-family: Raleway;color: rgb(104, 31, 241);"></h1>
 		</div>
-		<div class="col-lg-6 col-md-6 col-sm-6 text-end">
-			<img src="linkedin.png" width="40px" height="auto">
-			<img src="github.png" width="40px" height="auto">
-		</div>
-	</div>
-	<div class="container d-flex div1">
-		<div class="col-lg-12 col-md-12 col-sm-12">
-			<h2>Summary:-</h2>
-			<p style="font-style: italic;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+		<div class="col-lg-6 col-md-6 col-sm-6 text-end" style="padding-left: 2%;">
+			<img src="linkedin.png" width="40px" height="auto" class="img1">
+			<img src="github.png" width="60px" height="auto" class="img1">
 		</div>
 	</div>
+	<div class="container div1 text-center">
+			<h2 data-aos="fade-right">Summary:-</h2>
+			<p data-aos="fade-right" data-aos-duration="1000" style="font-style: italic;">I'm a hardworking and determinant individual with a goal-driven mindset. Have a knack for solving challenging problems with a keen interest in Full Stack Development, Deep Learning and Data Analytics. </p>
+	</div>
+  <div class="container div1 text-center">
+      <h2 data-aos="fade-right" data-aos-duration="1000">Education</h2>
+      <div style="padding: 3%;background-color: rgba(65, 91, 161, 0.281);" data-aos="fade-right" data-aos-duration="1000">
+      <h3>SRM Institute of Science and Technology<span style="padding-left: 3%;font-size: large;">2017 - 2021</span></h3>
+      <h4>Bachelor of Technology - <span style="font-style: italic;color: rgb(139, 136, 136);">Computer Science and Engineering</span></h4>
+      </div>
+      <div style="padding: 3%;background-color: rgba(65, 91, 161, 0.281);margin-top: 2%;" data-aos="fade-right" data-aos-duration="1000">
+        <h3>Delhi Public School<span style="padding-left: 3%;font-size: large;">2017</span></h3>
+        <h4>XII (C.B.S.E) - <span style="font-style: italic;color: rgb(139, 136, 136);">Physics, Chemistry and Maths</span></h4>
+        </div>
+  </div>
+
+  <div class="container div1 text-center">
+     <h2 data-aos="fade-right" data-aos-duration="1000">Work Experience</h2>
+     <div style="padding: 3%;background: rgba(114, 72, 114, 0.226);" class="text-start" data-aos="fade-right" data-aos-duration="1000">
+      <h3>REACHA, Remote</h3>
+      <h4>Full Stack Web Developer<span style="padding-left: 3%;font-size: large;">June 2020 - July 2020</span></h4>
+      <p><span style="font-weight: bold;">Project</span> - Development and deployment of a dynamic website.</p>
+      <ul>
+        <li>Part of a two member website development team responsible to increase organization global reach.</li>
+         <li>Used technologies like flask framework in python, HTML + CSS, Javascript and Bootstrap to develop the website and deployed it using
+          Amazon Web Services AWS.</li>
+        <li>Live website link - <a href="https://reacha.org/">Reacha</a></li>
+      </ul>
+    </div>
+    <div style="padding: 3%;background: rgba(114, 72, 114, 0.226);margin-top: 1%;" class="text-start" data-aos="fade-right" data-aos-duration="1000">
+      <h3>Bharat Electronics, Ghaziabad</h3>
+      <h4>Research-Intern<span style="padding-left: 3%;font-size: large;">June 2019 - July 2019</span></h4>
+      <p><span style="font-weight: bold;">Project1</span> - Building a deep learning model to recognize human activity using mobile phone sensor data.</p>
+      <ul>
+        <li>Developed a time series model with an accuracy of 90% to classify basic human movements like walking, running, standing etc.</li>
+        <li>Data collection was done using smartphone sensors like accelerometer (acceleration) and gyroscope (gravitational force).</li>
+        <li>Model built on keras framework and data processed using pandas, numpy and scikit-learn.</li>
+      </ul>
+      <p><span style="font-weight: bold;">Project2</span> - Small object Detection using UAV Data.</p>
+      <ul>
+        <li>To classify different small objects like bunkers, trucks, jeeps from images taken from an unmanned aerial vehicle (UAV).</li>
+        <li>Slicing videos into separate frames and annotating various objects in the given frame.</li>
+      </ul>
+    </div>
+    <div style="padding: 3%;background: rgba(114, 72, 114, 0.226);margin-top: 1%;" class="text-start" data-aos="fade-right" data-aos-duration="1000">
+      <h3>Digimode Solutions LLP, Lucknow</h3>
+      <h4>Intern<span style="padding-left: 3%;font-size: large;">December 2018 - January 2019</span></h4>
+      <p><span style="font-weight: bold;">Project</span> - Assembly of various static websites.</p>
+      <ul>
+        <li>Assembled numerous static websites using WordPress for clients of the organization.</li>
+      </ul>
+    </div>
+  </div>
+  </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -55,7 +113,7 @@
 	<script>
 
 VANTA.NET({
-  el: "#vantajs",
+  el: ".vantajs",
   mouseControls: true,
   touchControls: true,
   gyroControls: false,
@@ -63,14 +121,23 @@ VANTA.NET({
   minWidth: 200.00,
   scale: 1.00,
   scaleMobile: 1.00,
-  color: 0x17db5a,
-  backgroundColor: 0xe363b,
-  points: 12.00,
-  maxDistance: 12.00,
-  spacing: 16.00
+  color: 0x854478,
+  backgroundColor: 0x1010b,
+  points: 15.00,
+  maxDistance: 18.00,
+  spacing: 14.00,
+  forceAnimate: true
 })
-
 		</script>
-		
+    <script>
+      new Typewriter('#typewriter', {
+  strings: "Sachit Mishra",
+  autoStart: true,
+});
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
