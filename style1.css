@@ -6,3 +6,84 @@
 .img1{
     padding: 1%;
 }
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: rgb(238, 141, 62);
+}
+
+.btn1{
+    color: rgb(211, 201, 59);
+    border: 1px solid rgba(211, 201, 59, 0.747);
+    background: transparent;
+    padding: 2%;
+}
+.btn1:hover{
+    background: rgb(167, 31, 201);
+    color: white;
+}
+.btn2{
+    color: rgb(74, 96, 223);
+    border: 5px solid rgba(74, 96, 223, 0.747);
+    background: transparent;
+    padding: 2%;
+    width: 100px;
+    height: auto;
+}
+.btn2:hover{
+    background: rgb(65, 65, 165);
+    color: white;
+    border: 5px solid white;
+}
+.btn3{
+    color: rgb(74, 223, 141);
+    border: 5px solid rgba(74, 223, 141, 0.747);
+    background: transparent;
+    padding: 2%;
+    width: 100px;
+    height: auto;
+}
+.btn3:hover{
+    background: rgb(74, 223, 141);
+    color: white;
+    border: 5px solid white;
+}
+
+  @media screen and (max-width: 1024px) {
+    .btn2 {
+      width: 75px;
+      height: auto;
+      font-size: 12px;
+    }
+    .btn3 {
+        width: 75px;
+        height: auto;
+        font-size: 12px;
+      }
+  }
+  @media screen and (max-width: 768px) {
+    .btn2 {
+      width: 55px;
+      height: auto;
+      font-size: 10px;
+    }
+    .btn3 {
+        width: 55px;
+        height: auto;
+        font-size: 10px;
+      }
+  }
+  @media screen and (max-width: 480px) {
+    .btn2 {
+      width: 40px;
+      height: auto;
+      font-size: 10px;
+    }
+    .btn3 {
+        width: 40px;
+        height: auto;
+        font-size: 10px;
+      }
+  }
+
