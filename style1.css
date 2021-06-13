@@ -1,5 +1,8 @@
 .div1{
-    padding: 1%;
+    padding-top: 25vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-bottom: 25vh;
     color: white;
     font-family: Raleway;
 }
@@ -52,38 +55,42 @@
 
   @media screen and (max-width: 1024px) {
     .btn2 {
-      width: 75px;
+      width: 95px;
       height: auto;
-      font-size: 12px;
+      font-size: 13px;
     }
     .btn3 {
-        width: 75px;
+        width: 95px;
         height: auto;
-        font-size: 12px;
+        font-size: 13px;
       }
   }
   @media screen and (max-width: 768px) {
     .btn2 {
-      width: 55px;
+      width: 90px;
       height: auto;
-      font-size: 10px;
+      font-size: 13px;
     }
     .btn3 {
-        width: 55px;
+        width: 90px;
         height: auto;
-        font-size: 10px;
+        font-size: 13px;
       }
+
   }
   @media screen and (max-width: 480px) {
     .btn2 {
-      width: 40px;
+      width: 78px;
       height: auto;
-      font-size: 10px;
+      font-size: 12px;
     }
     .btn3 {
-        width: 40px;
+        width: 78px;
         height: auto;
-        font-size: 10px;
+        font-size: 12px;
+      }
+      .div1{
+        padding-left: 4vw;
+        padding-right: 4vw;
       }
   }
-
