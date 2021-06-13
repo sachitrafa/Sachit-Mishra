@@ -49,25 +49,25 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto ">
           <li class="nav-item">
-            <a class="nav-link" href="#about">About Me <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#about" data-toggle="collapse" data-target=".navbar-collapse.in">About Me <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#edu">Education</a>
+            <a class="nav-link" href="#edu" data-toggle="collapse" data-target=".navbar-collapse.in">Education</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#exp">Work Experience</a>
+            <a class="nav-link" href="#exp" data-toggle="collapse" data-target=".navbar-collapse.in">Work Experience</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#proj">Projects & Courses</a>
+            <a class="nav-link" href="#proj" data-toggle="collapse" data-target=".navbar-collapse.in">Projects & Courses</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#skill">Technical Skills</a>
+            <a class="nav-link" href="#skill" data-toggle="collapse" data-target=".navbar-collapse.in">Technical Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#acc">Accomplishments</a>
+            <a class="nav-link" href="#acc" data-toggle="collapse" data-target=".navbar-collapse.in">Accomplishments</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#hobb">Hobbies</a>
+            <a class="nav-link" href="#hobb" data-toggle="collapse" data-target=".navbar-collapse.in">Hobbies</a>
           </li>
           <li class="nav-item">
             <a href="https://www.linkedin.com/in/sachit-mishra-19b393165"><img src="linkedin.png" width="40px" height="auto" class="img1"></a>
@@ -292,6 +292,15 @@ VANTA.NET({
   strings: "Sachit Mishra",
   autoStart: true,
 });
+    </script>
+    <script>
+      $(function(){ 
+     var navMain = $(".navbar-collapse");
+
+     navMain.on("click", "a", null, function () {
+         navMain.collapse('hide');
+     });
+ });
     </script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
