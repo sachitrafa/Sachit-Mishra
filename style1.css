@@ -1,10 +1,22 @@
 .div1{
     padding-top: 25vh;
-    padding-left: 2vw;
-    padding-right: 2vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
     padding-bottom: 25vh;
-    color: white;
+    color: rgb(173, 171, 171);
     font-family: Raleway;
+    overflow-x: hidden;
+}
+h1, h2, h3, h4{
+  color: white;
+}
+hr{
+  border: 2px solid black;
+  color: rgb(138, 238, 143);
+}
+.no{
+  color: rgb(6, 163, 103);
+  font-family: Arial, Helvetica, sans-serif;
 }
 .img1{
     padding: 1%;
@@ -17,14 +29,15 @@
 }
 
 .btn1{
-    color: rgb(211, 201, 59);
-    border: 1px solid rgba(211, 201, 59, 0.747);
+    color: rgb(204, 202, 86);
+    border: 1px solid rgba(204, 202, 86, 0.747);
     background: transparent;
     padding: 2%;
 }
 .btn1:hover{
-    background: rgb(167, 31, 201);
+    background: rgb(204, 202, 86);
     color: white;
+    border: 1px solid white;
 }
 .btn2{
     color: rgb(74, 96, 223);
@@ -67,16 +80,27 @@
   }
   @media screen and (max-width: 768px) {
     .btn2 {
-      width: 90px;
+      width: 75px;
       height: auto;
       font-size: 13px;
     }
     .btn3 {
-        width: 90px;
+        width: 75px;
         height: auto;
         font-size: 13px;
       }
 
+  }
+  .back{
+    background: #112240;
+    border: 1px solid white;
+    box-shadow: 5px 10px rgba(184, 183, 183, 0.692);
+    padding: 5vh;
+  }
+  .back:hover{
+    background: rgb(36, 57, 65);
+    box-shadow:  5px 10px black;
+    border: 1px solid black;
   }
   @media screen and (max-width: 480px) {
     .btn2 {
@@ -89,8 +113,15 @@
         height: auto;
         font-size: 12px;
       }
-      .div1{
-        padding-left: 4vw;
-        padding-right: 4vw;
+      #skill{
+        padding-left: 2vw;
+        padding-right: 2vw;
       }
+    .btn1{
+      width: 80px;
+      font-size: 12px;
+    }
+    .test{
+      padding: 0vh;
+    }
   }
