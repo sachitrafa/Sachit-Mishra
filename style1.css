@@ -113,9 +113,9 @@ hr{
     padding: 5vh;
   }
   .back:hover{
-    background: rgb(48, 100, 72);
+    background: #301934d7;
     box-shadow:  5px 10px black;
-    border: 1px solid black;
+    border: 1px solid white;
   }
   @media screen and (max-width: 480px) {
     .btn2 {
