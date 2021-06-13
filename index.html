@@ -31,9 +31,24 @@
     }
 		.vantajs{
 			width: 100vw;
-			min-height: 100vh;
+			min-height: 200vh;
       overflow-x: hidden;
 		}
+    .vantajs1{
+      width: 100vw;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+    .vantajs2{
+      width: 100vw;
+      min-height: 200vh;
+      overflow-x: hidden;
+    }
+    .vantajs3{
+      width: 100vw;
+      min-height: 200vh;
+      overflow-x: hidden;
+    }
 	</style>
   </head>
   <body style="background: rgb(0, 21, 43);">
@@ -83,19 +98,19 @@
 			<h5 data-aos="fade-right" data-aos-duration="1000" style="font-style: italic;padding: 1%;">I'm a hardworking and determinant individual with a goal-driven mindset. Have a knack for solving challenging problems with a keen interest in Full Stack Development, Deep Learning and Data Analytics. </h5>
       </div>  
 </div>
-</div>
-  <div class="container div1 text-start" id="edu">
-      <h2 data-aos="fade-down" data-aos-duration="1000"><span class="no">02.</span> Education:- <hr></h2>
-      <div style="padding: 3%;" data-aos="fade-right" data-aos-duration="1000" class="back">
-      <h3>SRM Institute of Science and Technology<span style="padding-left: 3%;font-size: large;">2017 - 2021</span></h3>
-      <h4>Bachelor of Technology - <span style="font-style: italic;">Computer Science and Engineering</span></h4>
-      </div>
-      <div style="padding: 3%;margin-top: 5vh;" data-aos="fade-left" data-aos-duration="1000" class="back">
-        <h3>Delhi Public School<span style="padding-left: 3%;font-size: large;">2017</span></h3>
-        <h4>XII (C.B.S.E) - <span style="font-style: italic;">Physics, Chemistry and Maths</span></h4>
-        </div>
+<div class="container div1 text-start" id="edu">
+  <h2 data-aos="fade-down" data-aos-duration="1000"><span class="no">02.</span> Education:- <hr></h2>
+  <div style="padding: 3%;" data-aos="fade-right" data-aos-duration="1000" class="back">
+  <h3>SRM Institute of Science and Technology<span style="padding-left: 3%;font-size: large;">2017 - 2021</span></h3>
+  <h4>Bachelor of Technology - <span style="font-style: italic;">Computer Science and Engineering</span></h4>
   </div>
-
+  <div style="padding: 3%;margin-top: 5vh;" data-aos="fade-left" data-aos-duration="1000" class="back">
+    <h3>Delhi Public School<span style="padding-left: 3%;font-size: large;">2017</span></h3>
+    <h4>XII (C.B.S.E) - <span style="font-style: italic;">Physics, Chemistry and Maths</span></h4>
+    </div>
+</div>
+</div>
+  <div class="vantajs1">
   <div class="container div1 text-start" id="exp">
      <h2 data-aos="fade-down" data-aos-duration="1000"><span class="no">03.</span>Work Experience:- <hr></h2>
      <div style="padding: 5vh;" class="text-start back" data-aos="fade-right" data-aos-duration="1000">
@@ -133,22 +148,24 @@
       </ul>
     </div>
   </div>
+</div>
+<div class="vantajs2">
   <div class="container div1 text-start" id="proj">
     <h2 data-aos="flip-down" data-aos-duration="1000"><span class="no">04.</span>Projects & Courses:- <hr></h2>
-    <div class="back test">
-    <div class="d-flex"  data-aos="zoom-in" data-aos-duration="1000">
+    <div class="back">
+    <div data-aos="zoom-in" data-aos-duration="1000">
       <div class=" text-start">
         <h3>FinROBERTa</h3>
         <ul>
           <li>An NLP model built to classify sentiments of financial news headlines using pre-training and fine-tuning.</li>
           <li>We built a model from scratch with our task-specific text corpus and later fine-tuned it on the downstream task dataset.</li>
+          <div class="d-flex" style="margin-top: 2vh;">
+            <a href="https://huggingface.co/sm6342/FinRoberta"><button class="btn1">FinROBERTa Model</button></a>
+            <a href="https://www.kaggle.com/sachitrafa/finroberta4" style="padding-left: 1%;"><button class="btn1">Kaggle Notebook</button></a>
+            </div>
         </ul>
-        <div class="d-flex">
-        <a href="https://huggingface.co/sm6342/FinRoberta"><button class="btn1">FinROBERTa Model</button></a>
-        <a href="https://www.kaggle.com/sachitrafa/finroberta4" style="padding-left: 1%;"><button class="btn1">Kaggle Notebook</button></a>
-        </div>
       </div>
-      <div class="text-start">
+      <div class="text-start" style="margin-top: 2vh;">
         <h3>Skin Disease Classification</h3>
         <ul>
           <li>Constructed an image classifier with an accuracy of 85% for distinguishing various skin diseases.</li>
@@ -235,6 +252,8 @@
       </div>
       </div>
     </div>
+  </div>
+  <div class="vantajs3">
     <div id="acc"class="container div1 text-start">
       <h2 data-aos="fade-up" data-aos-duration="1000"><span class="no">6.</span> Accomplishments:- <hr></h2>
       <div class="back">
@@ -259,6 +278,7 @@ Review", at the Second SRM InternationalConference on Internet Of Things.</li>
       <p data-aos="zoom-in" data-aos-duration="1000">A collection of poems written by me - <a href="https://sachitrafa.github.io/Da-Poet-Corner/"><button class="btn1">Da Poets Corner</button></a></p>
     </div>
   </div>
+</div>
 
   
 
@@ -283,14 +303,62 @@ VANTA.NET({
   mouseControls: true,
   touchControls: true,
   gyroControls: false,
-  minHeight: 200.00,
-  minWidth: 200.00,
+  minHeight: 100.00,
+  minWidth: 100.00,
   scale: 1.00,
   scaleMobile: 1.00,
   color: 0x9430c1,
   backgroundColor: 0x152b,
-  points: 15.00,
-  maxDistance: 18.00,
+  points: 4.00,
+  maxDistance: 25.00,
+  spacing: 14.00,
+  forceAnimate: true
+})
+VANTA.NET({
+  el: ".vantajs1",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 100.00,
+  minWidth: 100.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  color: 0xdf4471,
+  backgroundColor: 0x152b,
+  points: 4.00,
+  maxDistance: 25.00,
+  spacing: 14.00,
+  forceAnimate: true
+})
+VANTA.NET({
+  el: ".vantajs2",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 100.00,
+  minWidth: 100.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  color: 0x44dfad,
+  backgroundColor: 0x152b,
+  points: 4.00,
+  maxDistance: 25.00,
+  spacing: 14.00,
+  forceAnimate: true
+})
+VANTA.NET({
+  el: ".vantajs3",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 100.00,
+  minWidth: 100.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  color: 0x4491df,
+  backgroundColor: 0x152b,
+  points: 4.00,
+  maxDistance: 25.00,
   spacing: 14.00,
   forceAnimate: true
 })
