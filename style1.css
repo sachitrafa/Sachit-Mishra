@@ -113,7 +113,7 @@ hr{
     padding: 5vh;
   }
   .back:hover{
-    background: #301934d7;
+    background: rgba(48, 25, 52, 0.815);
     box-shadow:  5px 10px black;
     border: 1px solid white;
   }
