@@ -4,8 +4,25 @@
     padding-right: 10vw;
     padding-bottom: 25vh;
     color: rgb(173, 171, 171);
-    font-family: Raleway;
+    font-family: IBM Plex Mono;
     overflow-x: hidden;
+}
+.image1{
+  background: rgba(168, 130, 180, 0.863);
+  border-radius: 1vw;
+  box-shadow: 4vh 4vh rgba(119, 78, 112, 0.479);
+
+}
+.sachit{
+  opacity: 0.8;
+  border-radius: 1vw;
+}
+.image1:hover{
+  box-shadow: 2vh 2vh rgba(255, 255, 255, 0.712);
+  transition: 1s;
+}
+.sachit:hover{
+  opacity: 1;
 }
 h1, h2, h3, h4{
   color: white;
@@ -37,6 +54,7 @@ hr{
     border: 1px solid rgba(204, 202, 86, 0.747);
     background: transparent;
     padding: 2%;
+    font-weight: bold;
 }
 .btn1:hover{
     background: rgb(204, 202, 86);
@@ -117,6 +135,7 @@ hr{
     box-shadow:  5px 10px black;
     border: 1px solid white;
   }
+
   @media screen and (max-width: 480px) {
     .btn2 {
       width: 78px;
@@ -139,4 +158,5 @@ hr{
     .test{
       padding: 0vh;
     }
+
   }
