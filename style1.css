@@ -3,15 +3,29 @@
     padding-left: 10vw;
     padding-right: 10vw;
     padding-bottom: 25vh;
-    color: rgb(173, 171, 171);
+    color: white;
     font-family: IBM Plex Mono;
     overflow-x: hidden;
 }
 .image1{
-  background: rgba(168, 130, 180, 0.863);
+  background: rgba(5, 224, 122, 0.863);
   border-radius: 1vw;
-  box-shadow: 4vh 4vh rgba(119, 78, 112, 0.479);
+  box-shadow: 3vh 3vh rgba(5, 224, 122, 0.479);
 
+}
+.totop{
+  background: rgb(42, 48, 63);
+  color: white;
+  text-decoration: none;
+  font-size: 3vh;
+  font-weight: bolder;
+  padding: 3vh;
+  border-radius: 50%;
+}
+.totop:hover{
+  background: rgba(42, 48, 63, 0.452);
+  color: white;
+  text-decoration: none;
 }
 .sachit{
   opacity: 0.8;
@@ -24,8 +38,11 @@
 .sachit:hover{
   opacity: 1;
 }
-h1, h2, h3, h4{
+h1, h2, h4{
   color: white;
+}
+h3{
+  color: rgb(5, 224, 122);
 }
 h2{
   font-family: Orbitron;
@@ -49,6 +66,7 @@ hr{
     color: #e1ec9e;
 }
 
+
 .btn1{
     color: rgb(204, 202, 86);
     border: 1px solid rgba(204, 202, 86, 0.747);
@@ -68,6 +86,7 @@ hr{
     padding: 2%;
     width: 100px;
     height: auto;
+    font-size: 2vh;
 }
 .btn2:hover{
     background: rgb(65, 65, 165);
@@ -75,15 +94,16 @@ hr{
     border: 5px solid white;
 }
 .btn3{
-    color: rgb(5, 197, 91);
-    border: 5px solid rgba(5, 197, 91, 0.747);
+    color: rgb(185, 190, 105);
+    border: 5px solid rgba(185, 190, 105, 0.747);
     background: transparent;
     padding: 2%;
     width: 100px;
     height: auto;
+    font-size: 2vh;
 }
 .btn3:hover{
-    background: rgb(5, 197, 91);
+    background: rgb(185, 190, 105);
     color: white;
     border: 5px solid white;
 }
@@ -115,46 +135,61 @@ hr{
     .btn2 {
       width: 75px;
       height: auto;
-      font-size: 13px;
+      font-size: 10px;
     }
     .btn3 {
         width: 75px;
         height: auto;
-        font-size: 13px;
+        font-size: 10px;
       }
 
   }
+  .dot1 {
+    height: 2vh;
+    width: 2vh;
+    background-color: rgb(187, 67, 67);
+    border-radius: 50%;
+    display: inline-block;
+
+  }
+  .dot2 {
+    height: 2vh;
+    width: 2vh;
+    background-color: rgb(185, 187, 67);
+    border-radius: 50%;
+    display: inline-block;
+
+  }
+  .dot3 {
+    height: 2vh;
+    width: 2vh;
+    background-color: rgb(67, 187, 73);
+    border-radius: 50%;
+    display: inline-block;
+
+  }
   .back{
-    background: #112240;
-    border: 1px solid white;
-    box-shadow: 5px 10px rgba(184, 183, 183, 0.692);
-    padding: 5vh;
+    background: black;
   }
   .back:hover{
-    background: rgba(48, 25, 52, 0.815);
-    box-shadow:  5px 10px black;
-    border: 1px solid white;
+    background: #112240;
   }
 
   @media screen and (max-width: 480px) {
     .btn2 {
       width: 78px;
       height: auto;
-      font-size: 12px;
+      font-size: 10px;
     }
     .btn3 {
         width: 78px;
         height: auto;
-        font-size: 12px;
+        font-size: 10px;
       }
       #skill{
         padding-left: 2vw;
         padding-right: 2vw;
       }
-    .btn1{
-      width: 80px;
-      font-size: 12px;
-    }
     .test{
       padding: 0vh;
     }
