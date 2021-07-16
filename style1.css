@@ -28,16 +28,16 @@
   text-decoration: none;
 }
 .sachit{
-  opacity: 0.8;
-  border-radius: 1vw;
+  width: 210px;
+  height: 200px;
+  border: 10px solid rgb(6, 163, 103);
+  border-radius: 100px;
 }
 .image1:hover{
   box-shadow: 2vh 2vh rgba(255, 255, 255, 0.712);
   transition: 1s;
 }
-.sachit:hover{
-  opacity: 1;
-}
+
 h1, h2, h4{
   color: white;
 }
@@ -142,6 +142,10 @@ hr{
         height: auto;
         font-size: 10px;
       }
+      .sachit{
+        width: 200px;
+        height: auto;
+      }
 
   }
   .dot1 {
@@ -192,6 +196,10 @@ hr{
       }
     .test{
       padding: 0vh;
+    }
+    .sachit{
+      width: 200px;
+      height: auto;
     }
 
   }
